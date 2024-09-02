@@ -1,0 +1,20 @@
+*:not(.elementor-editor-active) .pp-visibility-hidden {
+  display: none;
+}
+.pp-cursor-pointer {
+	position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 99;
+}
+.pp-cursor-active {
+	.pp-cursor-pointer {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+.pp-cursor-pointer-text {
+	background-color: #111;
+	color: #fff;
+	padding: 4px 10px;
+}

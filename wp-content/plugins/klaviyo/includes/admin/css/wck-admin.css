@@ -1,0 +1,106 @@
+.klaviyo-layout__notice-list-hide{
+    display: none !important;
+}
+
+#wpcontent {
+    padding-left: 0;
+}
+
+.wck-settings {
+    width: 100%;
+    margin: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.wck-content-wrapper {
+    background-color: white;
+    width: 100%;
+    /*padding-top: 56px;*/
+}
+
+.wck-content {
+    width: 90%;
+    /*margin: 0 auto 0 auto;*/
+    font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+    padding: 96px 0px 80px 36px;
+    display: flex;
+}
+
+.wck-logo {
+    margin-top: -16px;
+}
+
+.wck-content-wrapper .wck-content-subtitles {
+    /*display: block;*/
+    padding-left: 58px;
+}
+
+.wck-content-subtitles {
+    font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+    width: 550px;
+}
+
+.wck-content-title {
+    display: block;
+    font-size: 30px;
+    line-height: 32px;
+    color: #373F47;
+    padding-bottom: 16px;
+}
+
+.wck-content-subtitle {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #606A72;
+}
+
+.wck-content-subtitle a.subtitle-guide-link {
+    text-decoration: none;
+}
+
+.connect-buttons {
+    margin-top: 32px;
+}
+
+.connect-buttons .connect-button {
+    display: flex;
+    height: 32px;
+    text-align: center;
+}
+
+a.button.button-primary {
+    background: #2B98D3;
+    border-radius: 2px;
+    border-style: none;
+    padding: 0px 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+a.button.button-primary:hover {
+    background: #2B98D3;
+}
+
+a.button.create-account {
+    border-color: white;
+    text-align: center;
+    padding: 0px 16px;
+    margin-left: 16px;
+    background: white;
+    font-size: 14px;
+    color: #2B98D3;
+    border-style: none;
+}
+
+a.button.create-account:hover {
+    background: white;
+    border-style: none;
+    color: #2B98D3;
+}
+
+.subtitle-guide-link {
+    color: #2B98D3;
+}
